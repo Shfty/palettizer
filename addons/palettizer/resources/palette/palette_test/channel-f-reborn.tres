@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/palettizer/scripts/palette/lospec_palette.gd" type="Script" id=1]
+
+
+
+[resource]
+resource_name = "Channel F Reborn"
+script = ExtResource( 1 )
+reload = false
+id = "channel-f-reborn"
+author = ""
+colors = PoolColorArray( 0.65098, 0.65098, 0.768627, 1, 0.156863, 0.156863, 0.243137, 1, 0.388235, 0.988235, 0.745098, 1, 0.584314, 0.584314, 0.968627, 1, 1, 1, 0.85098, 1, 1, 0.309804, 0.517647, 1, 0.0156863, 0.501961, 0.027451, 1, 0.286275, 0.458824, 0.960784, 1 )

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/data_texture/scripts/gpu_data_base/gpu_data_color_base/gpu_data_color.gd" type="Script" id=1]
+
+[resource]
+resource_name = "GPUDataColor"
+script = ExtResource( 1 )
+data = [ Color( 1, 0, 0, 1 ), Color( 0, 1, 0.0627451, 1 ), Color( 0.0301514, 0.0668063, 0.964844, 1 ) ]

@@ -1,0 +1,37 @@
+[gd_resource type="ImageTexture" load_steps=7 format=2]
+
+[ext_resource path="res://data_texture_debug/row_2.tres" type="Resource" id=1]
+[ext_resource path="res://data_texture_debug/row_1.tres" type="Resource" id=2]
+[ext_resource path="res://data_texture_debug/row_3.tres" type="Resource" id=3]
+[ext_resource path="res://addons/data_texture/scripts/data_texture.gd" type="Script" id=4]
+
+[sub_resource type="Image" id=1]
+data = {
+"data": PoolByteArray(  ),
+"format": "Lum8",
+"height": 0,
+"mipmaps": false,
+"width": 0
+}
+
+[sub_resource type="Image" id=1]
+data = {
+"data": PoolByteArray(  ),
+"format": "Lum8",
+"height": 0,
+"mipmaps": false,
+"width": 0
+}
+
+[resource]
+resource_name = "DataTexture"
+flags = 2048
+flags = 2048
+image = SubResource( 1 )
+size = Vector2( 5, 3 )
+script = ExtResource( 4 )
+update_mode = 1
+force_update = false
+index_mode = 0
+gpu_data = [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 3 ) ]
+image = SubResource( 1 )

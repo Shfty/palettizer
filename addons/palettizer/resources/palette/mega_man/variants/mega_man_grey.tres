@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/palettizer/scripts/palette.gd" type="Script" id=1]
+
+[resource]
+resource_name = "Mega Man Grey"
+script = ExtResource( 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 0.486275, 0.486275, 0.486275, 1, 0.847059, 0.847059, 0.847059, 1, 0.988235, 0.847059, 0.658824, 1, 0.988235, 0.988235, 0.988235, 1 )

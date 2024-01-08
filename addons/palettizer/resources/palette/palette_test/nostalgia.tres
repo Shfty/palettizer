@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/palettizer/scripts/palette/lospec_palette.gd" type="Script" id=1]
+
+
+
+[resource]
+resource_name = "Nostalgia"
+script = ExtResource( 1 )
+reload = false
+id = "nostalgia"
+author = "WildLeoKnight"
+colors = PoolColorArray( 0.815686, 0.815686, 0.345098, 1, 0.627451, 0.658824, 0.25098, 1, 0.439216, 0.501961, 0.156863, 1, 0.25098, 0.313726, 0.0627451, 1 )

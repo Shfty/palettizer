@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/palettizer/scripts/palette/lospec_palette.gd" type="Script" id=1]
+
+
+
+[resource]
+resource_name = "PRIMAL8"
+script = ExtResource( 1 )
+reload = false
+id = "primal8"
+author = "GooGroker"
+colors = PoolColorArray( 0.101961, 0.0941176, 0.156863, 1, 0.301961, 0.352941, 0.423529, 1, 0.427451, 0.662745, 0.890196, 1, 1, 1, 1, 1, 0.933333, 0.701961, 0.2, 1, 0.145098, 0.576471, 0.133333, 1, 0.690196, 0.282353, 0.282353, 1, 0.356863, 0.180392, 0.2, 1 )
